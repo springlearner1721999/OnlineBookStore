@@ -1,0 +1,71 @@
+<!-- Navigation -->
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <a class="navbar-brand" href="#">Online Book Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="col-md-6">
+            <div class ="row">
+              <div class="col-md-8 form-group">
+                
+                <input type="text" id = "search-book" placeholder="search book" class="form-control">
+            
+              </div>
+              <div class="col-md-2">
+                <button class="btn btn-success">Search</button>
+              </div>
+            </div>
+        </div>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink = "Home">
+            Home  
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+</nav>
+<div>
+<router-outlet></router-outlet>
+</div> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#" style="font-weight: bold;">Online Book Store</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink = "Home">
+          Home  
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+
+    </ul>
+    <app-search></app-search>
+  </div>
+</nav>
+<router-outlet></router-outlet>
